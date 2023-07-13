@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header section {
+    width: 100vmax;
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: 100vmax 80vmin;
+    height: 80vmin;
+}
+
+.banner-container {
+    display: flex;
+    width: 88vmax;
+    height: 80vmin;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+.banner-container h3 {
+    font-size: 2.8em;
+    text-align: right;
+    color: #FFF;
+
+}
+.banner-container p{
+    text-align: right;
+    font-size: .7em;
+    color: #FFF;
+    margin-top: 1.8em;
+   
+}
+.btn-primary{
+    height: 2.5em;
+    width: 6.5em;
+    background-color: #FFF;
+    border-radius: 5px;
+    border-style: none;
+    color: #005FAC;
+    margin-top: 1.8em;
+    font-weight: 700;
+    font-size: .8em;
+}
