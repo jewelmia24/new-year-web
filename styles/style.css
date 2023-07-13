@@ -18,25 +18,26 @@ header section {
 }
 
 .banner-container {
-    display: flex;
+    display: grid;
     width: 88vmax;
     height: 80vmin;
-    justify-content: center;
-    align-items: end;
-    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 0;
 }
 
 .banner-container h3 {
     font-size: 2.8em;
     text-align: right;
     color: #FFF;
+    margin-top: 2em;
 
 }
 .banner-container p{
     text-align: right;
     font-size: .7em;
     color: #FFF;
-    margin-top: 1.8em;
+    /* margin-top: 1.8em; */
    
 }
 .btn-primary{
@@ -46,7 +47,12 @@ header section {
     border-radius: 5px;
     border-style: none;
     color: #005FAC;
-    margin-top: 1.8em;
+    /* margin-top: 1.8em; */
     font-weight: 700;
     font-size: .8em;
+    margin-bottom: 6em;
+}
+.banner-container div{
+    display: grid;
+    justify-content: end;
 }
